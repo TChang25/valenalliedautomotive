@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | Valen Allied Automotive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .contact-header {
+            background-color: #212529;
+            color: white;
+            padding: 60px 0;
+        }
+        .navbar-brand { font-weight: bold; }
+        .map-container {
+            height: 400px;
+            background-color: #e9ecef;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container justify-content-center">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="navbar-brand mx-4" href="index.html">VALEN ALLIED</a></li>
+                                <li class="nav-item"><a class="nav-link px-3" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link px-3 active" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="contact-header text-center">
+        <div class="container">
+            <h1 class="display-4">Contact Us</h1>
+            <p class="lead">Have a question? We're here to help your vehicle run at its best.</p>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <h3 class="mb-4">Contact Information</h3>
+                    <div class="mb-4">
+                        <h5>Address</h5>
+                        <p class="text-muted">4361 Okeechobee Blvd A14<br>West Palm Beach FL, 33409</p>
+                    </div>
+                    <div class="mb-4">
+                        <h5>Phone</h5>
+                        <p><a href="tel:5617043269" class="text-decoration-none">561-704-3269</a></p>
+                    </div>
+                    <div class="mb-4">
+                        <h5>Email</h5>
+                        <p><a href="mailto:valenallied@hotmail.com" class="text-decoration-none">valenallied@hotmail.com</a></p>
+                    </div>
+                    <div class="mt-5">
+                        <img src="carshop1.jfif" alt="Shop Interior" class="img-fluid rounded shadow-sm">
+                    </div>
+                </div>
+
+             <div class="col-lg-8">
+                <div class="card border-0 shadow-sm p-4">
+                    <h3 class="mb-4">Send Us a Message</h3>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" class="form-control" placeholder="John Doe">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="561-000-0000">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Vehicle Make/Model</label>
+                            <input type="text" class="form-control" placeholder="e.g. 2021 Volkswagen Atlas">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">How can we help?</label>
+                            <textarea class="form-control" rows="5" placeholder="Describe the issue (e.g. Check Engine Light, AC not cooling, etc.)"></textarea>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="privacyCheck" required>
+                            <label class="form-check-label small text-muted" for="privacyCheck">
+                                I agree to the <a href="privacypolicy.html" target="_blank">Privacy Policy</a>. Your information is only used to contact you regarding your automotive service request.
+                            </label>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <p class="small text-muted" style="font-size: 0.8rem;">
+                                <strong>Notice:</strong> by clicking SUBMIT you consent to receiving SMS messages. Messages and Data rates may apply. Message frequency will vary. </br> Reply Help to get more assistance. Reply Stop to Opt-out of messaging.
+                            </p>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5">
+        <div class="container">
+            <h3 class="mb-4 text-center">Find Us on Okeechobee Blvd</h3>
+            <div style="height: 405px;" class="map-container d-flex align-items-center justify-content-center border">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.0287231204763!2d-80.10770257509486!3d26.709766581182997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d7cd835eddd9%3A0xd571e88b3021358d!2sValen%20Allied%20Automotive!5e0!3m2!1sen!2sus!4v1767669323418!5m2!1sen!2sus" height="100%" width="100%" style="border:0; display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-1"><strong>Valen Allied Automotive</strong></p>
+            <p class="small text-muted">&copy; 2026 Valen Allied Automotive | Family Owned Since 2020</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
